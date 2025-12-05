@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings --loader ts-node/esm gift_shop.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}
