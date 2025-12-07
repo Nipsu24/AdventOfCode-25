@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "start": "node --no-warnings --loader ts-node/esm gift_shop.ts"
+    "start": "node --no-warnings --loader ts-node/esm"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
